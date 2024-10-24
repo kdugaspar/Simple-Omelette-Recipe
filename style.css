@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.display{
+display: flex;
+flex-direction: column;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 0.9rem;
+}
+main > .filho{
+    width: 79%;
+    background-color: rgba(35, 194, 29, 0);
+    padding: 1rem;
+
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: 2rem;
+    font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.paragrafo-reita{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.artigo-receita{
+    gap: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+    height: 40rem;
+}
+.apresentacao-receita{
+gap: 1.4rem;
+}
+.tempo-de-preparacao{
+    border-radius: 1rem;
+    background-color:  hsl(30, 54%, 90%);
+    padding: 1.5rem;
+}
+.preparation-time{
+color:  hsl(332, 51%, 32%);
+font-size: 1.1rem;
+}
+.tempo-de-preparacao-ul{
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+    margin-left: 2.5rem;
+    gap: 1rem;
+}
+.ingredientes{
+gap: 1.5rem;
+}
+.titulo-secundario{
+    color:  hsl(332, 51%, 32%);
+    font-size: 1.5rem;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+.ingredientes-ul{
+    margin-left: 1.2rem;
+    gap: 0.5rem;
+}
+
+.artigo-instrucoes{
+    gap: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+}
+
+.instrucoes-ol{
+gap: 1rem;
+margin-left: 1.2rem;
+height: 30rem;
+}
+
+.artigo-nuticao{
+    gap:1rem;
+}
+.paragrafo-nutri{
+    width: 16rem;
+}
+.tabela-nutri{
+    padding: 1rem;
+}
+td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
+    padding: 1rem;
+  }
+  .cor-nutri-td{
+    color:  hsl(332, 51%, 32%);
+    font-weight: 900;
+  }
+
+
